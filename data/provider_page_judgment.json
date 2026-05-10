@@ -1,0 +1,56 @@
+{
+  "residents": [
+    {
+      "residentId": "RES-2001",
+      "first_name": "Harper",
+      "lastName": "Quinn",
+      "dob": "1945-04-04",
+      "room": "201",
+      "care_level": "3",
+      "last_updated": "2024-03-01T08:00:00+00:00",
+      "is_active": true
+    },
+    {
+      "residentId": "RES-2002",
+      "first_name": "Sage",
+      "lastName": "Vega",
+      "dob": "1948-05-05",
+      "room": "202",
+      "care_level": "level_2",
+      "last_updated": "2024-03-02T08:00:00+00:00",
+      "is_active": true
+    },
+    {
+      "residentId": "RES-2003",
+      "first_name": "Ari",
+      "lastName": "Stone",
+      "dob": "1950-06-06",
+      "room": "203",
+      "care_level": null,
+      "last_updated": "2024-03-03T08:00:00+00:00",
+      "is_active": true
+    },
+    {
+      "residentId": "RES-2004",
+      "first_name": "Robin",
+      "lastName": "Frost",
+      "dob": "1942-07-07",
+      "room": "204",
+      "care_level": 4,
+      "last_updated": "2024-03-04T08:00:00+00:00",
+      "last_modified_by_caregiver": "2024-03-10T08:00:00+00:00",
+      "is_active": true,
+      "deleted_at": "2024-03-05T08:00:00+00:00"
+    },
+    {
+      "residentId": "RES-2005",
+      "first_name": "Dakota",
+      "lastName": "Reyes",
+      "dob": "1944-08-08",
+      "room": "205",
+      "care_level": 2,
+      "last_updated": "2024-03-05T08:00:00+00:00",
+      "is_active": false
+    }
+  ]
+}

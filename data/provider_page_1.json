@@ -1,0 +1,54 @@
+{
+  "residents": [
+    {
+      "residentId": "RES-1001",
+      "first_name": "Alex",
+      "lastName": "Carter",
+      "dob": "1945-03-12",
+      "room": "101",
+      "care_level": 2,
+      "last_updated": "2024-01-10T08:00:00+00:00",
+      "is_active": true
+    },
+    {
+      "residentId": "RES-1002",
+      "first_name": "Jamie",
+      "lastName": "Doe",
+      "dob": "1939-11-05",
+      "room": "102",
+      "care_level": null,
+      "last_updated": "2024-01-11T08:00:00+00:00",
+      "is_active": true
+    },
+    {
+      "residentId": "RES-1003",
+      "first_name": "Riley",
+      "lastName": "Smith",
+      "dob": "1952-07-22",
+      "room": null,
+      "care_level": 3,
+      "last_updated": "2024-01-12T08:00:00+00:00",
+      "is_active": false
+    },
+    {
+      "residentId": "RES-9000",
+      "first_name": "Existing",
+      "lastName": "Alpha",
+      "dob": "1942-01-01",
+      "room": "900-OLD",
+      "care_level": 5,
+      "last_updated": "2024-01-15T08:00:00+00:00",
+      "is_active": true
+    },
+    {
+      "residentId": "RES-1005",
+      "first_name": "Morgan",
+      "lastName": "Lee",
+      "dob": "1941-09-30",
+      "room": "105",
+      "care_level": 4,
+      "last_updated": "2024-01-14T08:00:00+00:00",
+      "is_active": true
+    }
+  ]
+}

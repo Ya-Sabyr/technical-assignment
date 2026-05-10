@@ -1,0 +1,13 @@
+{
+  "residents": [
+    {
+      "provider_id": "RES-9000",
+      "full_name": "Existing Alpha",
+      "date_of_birth": "1942-01-01",
+      "room": "900-CURRENT",
+      "care_level": 5,
+      "updated_at": "2024-06-01T00:00:00+00:00",
+      "is_active": true
+    }
+  ]
+}

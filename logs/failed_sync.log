@@ -1,0 +1,11 @@
+2024-02-15T08:00:00Z INFO  sync.run started run_id=run-001 provider=MockCareProvider
+2024-02-15T08:00:00Z INFO  sync.fetch_page cursor=None
+2024-02-15T08:00:01Z INFO  sync.fetch_page received 5 records cursor=None next_cursor=page_2
+2024-02-15T08:00:01Z WARN  sync.map record residentId=RES-1101 invalid dob='not-a-date'
+2024-02-15T08:00:01Z ERROR sync.map record_index=2 reason=missing_required_field field=residentId
+2024-02-15T08:00:02Z INFO  sync.fetch_page cursor=page_2
+2024-02-15T08:00:02Z WARN  sync.fetch_page rate_limited retry_after=0.5
+2024-02-15T08:00:03Z INFO  sync.fetch_page cursor=page_2 retry=1 succeeded
+2024-02-15T08:00:03Z INFO  sync.upsert provider_id=RES-1001 action=updated old_updated_at=2024-01-10 new_updated_at=2024-02-01
+2024-02-15T08:00:03Z INFO  sync.upsert provider_id=RES-9000 action=skipped reason=stale internal=2024-06-01 incoming=2024-01-15
+2024-02-15T08:00:04Z INFO  sync.run finished created=4 updated=1 skipped=1 failed=2 duration_ms=3812
