@@ -158,7 +158,7 @@ Please include in your README:
 
 ---
 
-## Your Notes
+## Notes
 
 A per-file record of what changed against the starter codebase lives in
 [`CHANGELOG.md`](./CHANGELOG.md). This section covers tradeoffs, decisions,
